@@ -8,7 +8,7 @@ echo "
 
 echo "Running The Reset" 
 echo "List of the devices that were paired"
-
+bluetoothctl power on 
 echo "------------------------------------"
 bluetoothctl devices 
 echo "------------------------------------"
